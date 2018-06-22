@@ -3,8 +3,7 @@ function check(form)
  
  if(form.userid.value == "Owen" && form.pswrd.value == "site")
   {
-	window.close();
-    window.open("home.html");
+    window.open("home.html","_self");
 	
   }
  else
